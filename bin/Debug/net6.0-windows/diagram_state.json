@@ -1,0 +1,25 @@
+{
+  "Type": 1,
+  "Points": [
+    {
+      "Label": "1",
+      "Value": 25
+    },
+    {
+      "Label": "2",
+      "Value": 30
+    },
+    {
+      "Label": "3",
+      "Value": 15
+    },
+    {
+      "Label": "4",
+      "Value": 1000
+    },
+    {
+      "Label": "5",
+      "Value": 897
+    }
+  ]
+}
