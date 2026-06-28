@@ -68,7 +68,14 @@ public class MainForm : Form
             _bindingList.Add(new ChartDataPoint { Label = "Nowa", Value = 10 });
         };
 
+        var clearButton = new Button { Text = "Wyczyść", Dock = DockStyle.Bottom, Height = 32 };
+        clearButton.Click += (s, e) =>
+        {
+            _bindingList.Clear();
+        };
+
         leftContainer.Controls.Add(_grid);
+        leftContainer.Controls.Add(clearButton);
         leftContainer.Controls.Add(addButton);
 
         _chartPanel = new DoubleBufferedPanel { Dock = DockStyle.Fill, BackColor = Color.White };
