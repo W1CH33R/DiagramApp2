@@ -1,0 +1,6 @@
+bin/
+obj/
+.idea/
+.vs/
+*.user
+diagram_state.json
